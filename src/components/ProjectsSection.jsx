@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "NutriGuide AI",
+    description: "AI-Driven System that provides personalized diet recommendations based on user health data and goals, ensuring optimal nutrition for weight management and wellness.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["Machine Learning", "Nearest Neighbors","Supervised Learning","Flask"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "PhishShield AI",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "Developed an AI-Powered phishing Detection Extension that analyzes URLs to identify and prevent potential cyber threats in real-time.",
+    image: "/projects/project2.jpeg",
+    tags: ["Machine Learning", "Gradient Boosting", "Jupyter Notebook","CyberSecurity"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Kayyum0/Phishing-Detection-Extension.git",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "FoodEase",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "A user-friendly food ordering platform with seamless browsing customization, and real-time tracking providing both customer and admin panel for efficient management.",
+    image: "/projects/project3.jpeg",
+    tags: ["React", "Node.js", "MongoDB"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Kayyum0/Food-Web.git",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/kayyum0"
           >
             Check My Github <ArrowRight size={16} />
           </a>
