@@ -15,7 +15,7 @@ const projects = [
     title: "PhishShield AI",
     description:
       "Developed an AI-Powered phishing Detection Extension that analyzes URLs to identify and prevent potential cyber threats in real-time.",
-    image: "/projects/project2.jpeg",
+    image: "/projects/project2.png",
     tags: ["Machine Learning", "Gradient Boosting", "Jupyter Notebook","CyberSecurity"],
     demoUrl: "#",
     githubUrl: "https://github.com/Kayyum0/Phishing-Detection-Extension.git",
@@ -25,7 +25,7 @@ const projects = [
     title: "FoodEase",
     description:
       "A user-friendly food ordering platform with seamless browsing customization, and real-time tracking providing both customer and admin panel for efficient management.",
-    image: "/projects/project3.jpeg",
+    image: "/projects/project3.png",
     tags: ["React", "Node.js", "MongoDB"],
     demoUrl: "#",
     githubUrl: "https://github.com/Kayyum0/Food-Web.git",
